@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef } from "react"
+import { useState, useRef, type ChangeEvent, type FormEvent } from "react"
 import { motion, useInView } from "framer-motion"
 import { Mail, Phone, MapPin, Send } from "lucide-react"
 
@@ -17,12 +17,12 @@ export default function ContactSection() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.3 })
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
 

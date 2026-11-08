@@ -355,8 +355,9 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  Results-driven IT Infrastructure & DevOps Specialist with over 6 years of experience in network
-                  administration, IT operations, and cloud infrastructure.
+                  DevOps Engineer with a strong foundation in IT operations,
+                  starting my journey in 2018 as a Help Desk technician, moving through network administration,
+                  and transitioning into dedicated DevOps and infrastructure automation over the past year.
                 </motion.p>
                 <motion.p
                   className="text-lg mb-6 text-[#e0e0e0] leading-relaxed"
@@ -365,9 +366,8 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 0.4 }}
                   viewport={{ once: true }}
                 >
-                  Expertise in automating deployments, optimizing system performance, and ensuring enterprise-grade
-                  security. Proficient in CI/CD pipelines, containerization (Docker, Kubernetes), Infrastructure as Code
-                  (Terraform, Ansible), and cloud computing (AWS, GCP, Azure).
+                  Experienced in working with Linux environments, containerization with Docker, CI/CD pipelines (GitLab CI/GitHub Actions),
+                  system monitoring, and automation tools commonly used in production environments.
                 </motion.p>
                 <motion.p
                   className="text-lg mb-8 text-[#e0e0e0] leading-relaxed"
@@ -376,7 +376,8 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 0.6 }}
                   viewport={{ once: true }}
                 >
-                  Passionate about scalability, automation, and reliability engineering.
+                  Passionate about building reliable systems, streamlining deployment workflows, and continuous learning.
+
                 </motion.p>
                 <motion.div
                   className="mt-8"
